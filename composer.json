@@ -1,0 +1,8 @@
+{
+  "name": "blackbam/php-performance-bottleneck-logger",
+  "description": "Find bottlenecks in your PHP application and log or track them as required.",
+  "require": {
+    "php": ">=8.1",
+    "blackbam/cistoolkit": ">=v0.9.5"
+  }
+}

@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bca4af529600368e9bac4a15e1bd916a",
+    "packages": [
+        {
+            "name": "blackbam/cistoolkit",
+            "version": "v0.9.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Blackbam/cistoolkit.git",
+                "reference": "72a8aec27cafb75147d0f60bac7e47f27a4c812a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Blackbam/cistoolkit/zipball/72a8aec27cafb75147d0f60bac7e47f27a4c812a",
+                "reference": "72a8aec27cafb75147d0f60bac7e47f27a4c812a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-iconv": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-spl": "*",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-phpbrowser": "^1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CisTools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Stöckl",
+                    "email": "admin@blackbam.at",
+                    "homepage": "https://www.blackbam.at/"
+                }
+            ],
+            "description": "A generic toolkit containing a lot of very useful PHP classes",
+            "homepage": "https://www.blackbam.at/",
+            "keywords": [
+                "debugging",
+                "math",
+                "templating",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/Blackbam/cistoolkit/issues",
+                "source": "https://github.com/Blackbam/cistoolkit/tree/v0.9.5"
+            },
+            "time": "2022-08-25T10:47:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
